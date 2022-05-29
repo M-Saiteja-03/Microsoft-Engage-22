@@ -1,0 +1,134 @@
+#center2 {
+  position: absolute;
+  top: 30%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  font-size: 70px;
+  /* background-color: red; */
+  color: white;
+}
+
+#center1 {
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  /* background-color: rgb(207, 10, 10); */
+  color: white;
+  /* padding: 10px; */
+  margin: 20px;
+}
+
+.sidebar {
+  display: inline-block;
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 40px;
+  background-color: rgb(60, 65, 66);
+  border: #04AA6D 2px solid;
+  border-right: #3fffc5 5px solid;
+}
+
+.sidebar i {
+  margin: 5px;
+}
+
+.sidebar a {
+  display: block;
+  color: rgb(243, 233, 233);
+  padding: 16px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-decoration: none;
+}
+
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: rgb(255, 255, 255);
+}
+
+/* @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  } */
+.total {
+  padding-left: 205px;
+}
+
+.sidebar .profile {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.sidebar .profile img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.sidebar .profile h5 {
+  color: #ffffff;
+  margin: 10px 0 10px;
+  /* padding-left: 0px; */
+}
+
+/* .heading{
+  font-size: 20px;
+} */
+.data {
+  font-size: 20px;
+  padding-right: 180px;
+  margin: 20px;
+}
+
+.data.footer {
+  font-weight: 800;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+a.data.data.footer {
+  text-decoration: none;
+}
+
+span.dataset:hover {
+  background-color: azure;
+  color: blue;
+}
+
+span.dataset {
+  border: 2px solid black;
+  padding: 5px;
+  background-color: #03e693;
+  margin: 50px 0px;
+  color: #555;
+  border-radius: 50px;
+}
+
+.footer p {
+  color: #08f09b;
+  padding-left: 20px;
+  padding-right: 35px;
+}
